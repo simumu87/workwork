@@ -15,19 +15,19 @@
 | 12 | `12_mansion_living_room_reverse_west` | — | living | `into oppa study→into the study ×1` |
 | 13 | `13_mansion_living_room_south_to_pool_deck` | — | pool, living | `aira workshop→workshop ×1`; `img: 1st floor central living room and south … → elevated aerial exterior view from the s…`; `img: and entrance on south facade, empty scen… → and entrance on south facade, sunset twi…` |
 | 14 | `14_mansion_living_room_firepit_to_east_rooms` | — | living | `aira workshop→workshop ×1`; `to oppa study→to the study ×1` |
-| 15 | `15_mansion_kitchen_dining_master` | kitchen_dining | kitchen | — |
-| 16 | `16_mansion_kitchen_reverse_to_living_and_pool` | — | kitchen, living, pool | `aira workshop→workshop ×1`; `img: 1st floor kitchen looking south across… → 1st floor kitchen at dusk looking south …` |
+| 15 | `15_mansion_kitchen_dining_master` | kitchen_dining | kitchen | `img: L-shaped built-in warm oak kitchen cabin… → L-shaped built-in flat-panel walnut-tone…` |
+| 16 | `16_mansion_kitchen_reverse_to_living_and_pool` | — | kitchen, living, pool | `aira workshop→workshop ×1`; `img: 1st floor kitchen looking south across… → 1st floor kitchen at dusk looking south …`; `img: kitchen island countertop in foreground,… → waterfall-edge veined beige stone kitche…` |
 | 17 | `17_mansion_central_bathroom_and_bookshelf_corridor` | — | bath, shelf | — |
 | 18 | `18_mansion_bedroom1_master_wide` | — | bedroom1 | `(bedroom \d) (?:nayun|yeoreum|daye|nova|danhee|hangyeol) room→\1 ×1` |
 | 19 | `19_mansion_bedroom1_reverse_desk_and_window` | — | bedroom1 | `(bedroom \d) (?:nayun|yeoreum|daye|nova|danhee|hangyeol) room→\1 ×1`; `img: burgundy tufted velvet armchair and red-… → burgundy tufted velvet armchair with glo…` |
 | 20 | `20_mansion_bedroom1_doorway_to_west_corridor` | nayun_room, kitchen_dining | bedroom1, kitchen | — |
 | 21 | `21_mansion_west_corridor_north_to_south` | — | corridor | — |
 | 22 | `22_mansion_west_corridor_south_to_north` | — | corridor | `(bedroom \d) (?:nayun|yeoreum|daye|nova|danhee|hangyeol) room→\1 ×1` |
-| 23 | `23_mansion_bedroom2_master_north` | — | bedroom2 | `(bedroom \d) (?:nayun|yeoreum|daye|nova|danhee|hangyeol) room→\1 ×1`; `img: 1st floor bedroom 2 master looking north… → 1st floor bedroom 2 master looking north…` |
-| 24 | `24_mansion_bedroom2_west_desk_window` | — | bedroom2 | `(bedroom \d) (?:nayun|yeoreum|daye|nova|danhee|hangyeol) room→\1 ×1`; `img: 1st floor bedroom 2 rotated view looking… → 1st floor bedroom 2 rotated view looking…`; `img: cork pinboard on solid left wall… → cork pinboard on the wall left of the wi…` |
-| 25 | `25_mansion_bedroom2_east_mirror_wardrobe` | — | bedroom2 | `(bedroom \d) (?:nayun|yeoreum|daye|nova|danhee|hangyeol) room→\1 ×1` |
-| 26 | `26_mansion_bedroom2_doorway_to_west_corridor` | — | bedroom2, corridor | `(bedroom \d) (?:nayun|yeoreum|daye|nova|danhee|hangyeol) room→\1 ×1` |
-| 27 | `27_mansion_bedroom3_master_wide` | — | bedroom3 | `(bedroom \d) (?:nayun|yeoreum|daye|nova|danhee|hangyeol) room→\1 ×1` |
+| 23 | `23_mansion_bedroom2_master_north` | — | bedroom2 | `(bedroom \d) (?:nayun|yeoreum|daye|nova|danhee|hangyeol) room→\1 ×1`; `img: 1st floor bedroom 2 master looking north… → 1st floor bedroom 2 master looking north…`; `img: black standing mirror on right, empty sc… → black standing mirror on right, blue-and…` |
+| 24 | `24_mansion_bedroom2_west_desk_window` | — | bedroom2 | `(bedroom \d) (?:nayun|yeoreum|daye|nova|danhee|hangyeol) room→\1 ×1`; `img: 1st floor bedroom 2 rotated view looking… → 1st floor bedroom 2 rotated view looking…`; `img: cork pinboard on solid left wall… → cork pinboard on the wall left of the wi…`; `img: yellow plush duck on right, empty scene… → yellow plush duck on right, blue-and-cre…` |
+| 25 | `25_mansion_bedroom2_east_mirror_wardrobe` | — | bedroom2 | `(bedroom \d) (?:nayun|yeoreum|daye|nova|danhee|hangyeol) room→\1 ×1`; `img: rotated view looking north-east, … → rotated view looking north-east in warm …`; `img: black standing mirror on right, empty sc… → black standing mirror on right, blue geo…` |
+| 26 | `26_mansion_bedroom2_doorway_to_west_corridor` | — | bedroom2, corridor | `(bedroom \d) (?:nayun|yeoreum|daye|nova|danhee|hangyeol) room→\1 ×1`; `img: looking east through open oak bedroom do… → looking east through open oak bedroom do…`; `img: oak desk and plaid-shirt chair on right,… → oak desk and plaid-shirt chair on right,…` |
+| 27 | `27_mansion_bedroom3_master_wide` | — | bedroom3 | `(bedroom \d) (?:nayun|yeoreum|daye|nova|danhee|hangyeol) room→\1 ×1`; `img: 1st floor bedroom 3 master wide angle,… → 1st floor bedroom 3 master wide angle un…` |
 | 28 | `28_mansion_bedroom3_desk_postit_wall` | — | bedroom3 | `(bedroom \d) (?:nayun|yeoreum|daye|nova|danhee|hangyeol) room→\1 ×1` |
 | 29 | `29_mansion_bedroom3_south_window_to_pool_and_gym` | — | bedroom3 | `(bedroom \d) (?:nayun|yeoreum|daye|nova|danhee|hangyeol) room→\1 ×1`; `img: outdoor view of 27.8m… → outdoor dusk view of 27.8m…` |
 | 30 | `30_mansion_bedroom3_doorway_to_living_and_pool` | — | bedroom3, living | `(bedroom \d) (?:nayun|yeoreum|daye|nova|danhee|hangyeol) room→\1 ×1` |
