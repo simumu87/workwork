@@ -20,10 +20,10 @@
 
 ## 트리거 체계 (캡션 공통 규칙)
 
-- **전역 트리거**: `mn5vx` — 79장 전부의 캡션 맨 앞에 1회만 쓴다. (기존 `forest_mansion, mansion_house`는 폐기, 황혼 로라의 `tw1cx`와는 별개)
+- **전역 트리거**: `mn5vx` — 79장 전부의 캡션 맨 앞에 1회만 쓴다.
 - **존 트리거**: 전역 트리거 바로 뒤에 쉼표로 이어 쓴다. 촬영 위치(카메라가 서 있는 존)를 먼저, 그다음 화면에 보이는 존을 쓴다. 79장 전부 최소 1개 존 트리거를 가진다.
 - **캡션 형식**: `mn5vx, 존1[, 존2[, 존3]], 샷 설명…, empty scene|room|gym, no people|no humans`
-- **명명 규칙**: 소문자 영문(+숫자)만, 한 단어, 밑줄 없음. 캐릭터 이름·약칭(한국어/로마자)은 트리거·캡션 본문·파일명 어디에도 쓰지 않는다. 방은 번호(`bedroom1~6`)와 위치/용도 단어로만 부른다. (캐릭터 로라 트리거와 섞이지 않게 하기 위함)
+- **명명 규칙**: 소문자 영문(+숫자)만, 한 단어, 밑줄 없음. 캐릭터 이름·약칭(한국어/로마자)은 트리거와 캡션 본문에 쓰지 않는다(파일명은 무관). 방은 번호(`bedroom1~6`)와 위치/용도 단어로만 부른다. (캐릭터 로라 트리거와 섞이지 않게 하기 위함)
 - **이미지 속 간판 글자**(`BROTHER GYM`, `MAX FC`, `오빠짐`, `PUZZLE FILES` 등)는 이미지에 실제로 보이는 글자라서 캡션에서 그대로 유지한다.
 - 표의 번호: 일반 숫자 = 촬영 위치 존, 괄호 = 화면에 보이는 존.
 
@@ -77,16 +77,16 @@
 ### [05] `05_mansion_exterior_master_west.png`
 - **Caption (`.txt`)**: `mn5vx, exterior, exterior master west view aerial photograph looking east across the estate, foreground right showing 1-story private home gym with glass walls and workout equipment, foreground left and center showing continuous straight 1st-floor west wall of main house from bedroom 6 on north-left to bedroom 3 on south-right, 2nd-floor wooden rooftop terrace above with lounge chairs over bedroom 6, west dining table and dark gabled attic cottage, background left showing 1st-floor zen forest courtyard stretching east to red maple tree, background center showing string-lit rooftop pergola, background right showing 27.8m swimming pool and workshop, golden hour twilight, empty scene, no humans`
 
-### [06] `06_mansion_zen_courtyard_to_bedroom6.png`
+### [06] `06_mansion_zen_courtyard_to_hangyeol_room.png`
 - **Caption (`.txt`)**: `mn5vx, zen, bedroom6, eye-level exterior-to-interior transition photograph from inside the 1st-floor zen forest courtyard looking west toward bedroom 6, foreground right with round stone tsukubai water basin, bamboo spout, red maple branches and green bamboo groves along north wall, center with wavy white karesansui raked gravel, green moss mounds and grey stepping stones, left with brown wooden engawa deck walkway along solid north wall of main house, background center showing wide sliding glass doors of 1st-floor bedroom 6 revealing light oak desk, monitor, pour-over coffee station, bookcase and olive-green bed inside, 2nd-floor rooftop railing and attic cottage roof visible above, twilight, empty scene, no humans`
 
-### [08] `08_mansion_bedroom6_master_wide.png`
+### [08] `08_mansion_hangyeol_bedroom6_master_wide.png`
 - **Caption (`.txt`)**: `mn5vx, bedroom6, interior master wide photograph of 1st-floor bedroom 6 studio suite looking west, warm light oak flooring and white walls, center background with light oak king bed, olive-green sheets, cream textured throw blanket, grey knit sweater, nightstand and horizontal clerestory window above bed, left studio zone with light oak work desk, dark grey ergonomic chair, laptop, monitor, stainless steel kettle, coffee beans jar, mug, beige cushioned wooden stool, cream rug, corkboard and bookcase with trailing green plant, left sliding glass door opening onto wooden engawa deck and zen forest courtyard with red maple, bamboo, stone water basin and white raked gravel outside, right side with built-in oak wardrobe, standing mirror, grey armless loveseat sofa and open en-suite bathroom door, empty room, no people`
 
-### [09] `09_mansion_bedroom6_studio_desk_to_courtyard.png`
+### [09] `09_mansion_hangyeol_studio_desk_to_courtyard.png`
 - **Caption (`.txt`)**: `mn5vx, bedroom6, zen, interior-to-exterior 180-degree reverse angle photograph from inside bedroom 6 looking east past the studio work desk directly out into the zen forest courtyard, foreground right with light oak desk, dark grey ergonomic chair, laptop, external monitor, stainless kettle, coffee beans jar, beige cushioned wooden stool on cream rug, corkboard, bookcase with trailing green plant and olive-green bed edge, outside left and center showing brown wooden engawa deck, wavy white karesansui raked gravel, sculpted green moss islands, green bamboo groves along north wall, solid windowless grey-beige main house north wall on right, and orange-red japanese maple tree with round stone tsukubai water basin at east end, twilight, empty scene, no humans`
 
-### [10] `10_mansion_bedroom6_doorway_to_west_corridor.png`
+### [10] `10_mansion_hangyeol_doorway_to_west_corridor.png`
 - **Caption (`.txt`)**: `mn5vx, bedroom6, living, interior true 180-degree rotated camera photograph standing in front of the bed inside 1st-floor bedroom 6 looking south through the open wooden bedroom door down the west corridor into the central living room, foreground bottom showing foot of olive-green and cream knit bed with folded grey sweater, left side showing leaning oak full-length mirror, grey fabric armless loveseat sofa, open pocket door to grey-tiled en-suite bathroom and built-in light oak wardrobe, right side showing light oak bookcase with trailing plant, light oak work desk with laptop, monitor, stainless kettle, dark grey chair, beige wooden stool on cream rug and sliding glass door opening to zen forest courtyard with red maple and stone water basin, center straight ahead showing open wooden door with grey robe on hook leading down west corridor directly into main living room with cream L-shaped sofa, empty room, no people`
 
 ### [11] `11_mansion_living_room_master_east.png`
@@ -110,13 +110,13 @@
 ### [17] `17_mansion_central_bathroom_and_bookshelf_corridor.png`
 - **Caption (`.txt`)**: `mn5vx, bath, shelf, 1st floor central bathroom and U-shaped bookshelf zone looking east into enclosed living room, open oak door on left revealing windowless warm beige travertine stone bathroom with freestanding oval bathtub and backlit mirror vanity, warm-lit oak bookshelf alcove in center, enclosed living room with cream-beige L-sofa and south pool glass wall on right, empty scene, no people`
 
-### [18] `18_mansion_bedroom1_master_wide.png`
+### [18] `18_mansion_nayun_bedroom1_master_wide.png`
 - **Caption (`.txt`)**: `mn5vx, bedroom1, 1st floor bedroom 1 master looking north, dark walnut desk with burgundy tufted velvet armchair and 3-tier dark bookshelf with antique grimoire book on left, waist-high 1st-floor west window with dark curtains on far left, vertical-channel-tufted deep burgundy velvet north wall with glowing golden crescent moon sconce and burgundy velvet bed in center, red-string timestamped note card wall and glowing miniature lighthouse lamp on right, empty scene, no people`
 
-### [19] `19_mansion_bedroom1_reverse_desk_and_window.png`
+### [19] `19_mansion_nayun_bedroom1_reverse_desk_and_window.png`
 - **Caption (`.txt`)**: `mn5vx, bedroom1, 1st floor bedroom 1 rotated view looking west toward waist-high dark-framed casement window and dark walnut desk, burgundy tufted velvet armchair with glowing miniature lighthouse lamp on a round dark side table and red-string note wall on left, burgundy velvet bed with dark bookshelf and antique book and golden crescent moon sconce on right, empty scene, no people`
 
-### [20] `20_mansion_bedroom1_doorway_to_west_corridor.png`
+### [20] `20_mansion_nayun_bedroom1_doorway_to_west_corridor.png`
 - **Caption (`.txt`)**: `mn5vx, bedroom1, kitchen, interior true 180-degree reverse doorway transition photograph standing near the west window inside 1st-floor bedroom 1 looking east through the open wooden bedroom door across the west corridor directly into the kitchen and dining room, foreground left north wall showing deep burgundy velvet vertical channel-tufted wall with glowing golden crescent moon sconce above king bed with cream sheets, burgundy knitted throw blanket and glowing miniature lighthouse lamp on round dark side table, foreground right wall showing dark textured wall covered in pinned notes and red investigation strings, center straight ahead through open wooden door showing light-oak west corridor and open kitchen dining room with walnut dining table, two woven rattan dome pendant lights, built-in black oven and oak kitchen counters, empty room, no people`
 
 ### [21] `21_mansion_west_corridor_north_to_south.png`
@@ -125,58 +125,58 @@
 ### [22] `22_mansion_west_corridor_south_to_north.png`
 - **Caption (`.txt`)**: `mn5vx, corridor, 1st floor west corridor 180-degree reverse looking north, solid west wall with 3 oak bedroom doors on left, living room L-sofa and oak TV partition wall and kitchen dining portal with solid oak cabinets on right, open doorway into bedroom 6 ahead, empty scene, no people`
 
-### [23] `23_mansion_bedroom2_master_north.png`
+### [23] `23_mansion_yeoreum_bedroom2_master_north.png`
 - **Caption (`.txt`)**: `mn5vx, bedroom2, 1st floor bedroom 2 master looking north in warm golden-hour sunlight, waist-high white-framed casement window with blue curtains above 3-drawer natural oak study desk with black lamp and laptop and yellow rubber duck on left, blue plaid shirt on chair, low wooden bed with navy-to-sunset-orange gradient duvet and yellow plush duck and sunset poster ahead, hourglass nightstand and 3-door white built-in wardrobe and black standing mirror on right, blue-and-cream patchwork block rug on floor, empty scene, no people`
 
-### [24] `24_mansion_bedroom2_west_desk_window.png`
+### [24] `24_mansion_yeoreum_bedroom2_west_desk_window.png`
 - **Caption (`.txt`)**: `mn5vx, bedroom2, 1st floor bedroom 2 rotated view looking west in warm golden-hour sunlight, waist-high white-framed multi-pane casement window with blue curtains above 3-drawer natural oak study desk with black lamp, laptop, yellow rubber duck, coloured pencils, and blue-plaid-shirt chair, cork pinboard on the wall left of the window, navy-to-sunset-orange gradient bed with yellow plush duck on right, blue-and-cream patchwork block rug on floor, empty scene, no people`
 
-### [25] `25_mansion_bedroom2_east_mirror_wardrobe.png`
+### [25] `25_mansion_yeoreum_bedroom2_east_mirror_wardrobe.png`
 - **Caption (`.txt`)**: `mn5vx, bedroom2, 1st floor bedroom 2 rotated view looking north-east in warm golden-hour sunlight, navy-to-sunset-orange gradient bed with yellow plush duck, sunset poster wall, wooden nightstand with two hourglasses and warm lamp, 3-door white built-in wardrobe and black standing mirror on right, blue geometric woven rug in foreground, empty scene, no people`
 
-### [26] `26_mansion_bedroom2_doorway_to_west_corridor.png`
+### [26] `26_mansion_yeoreum_bedroom2_doorway_to_west_corridor.png`
 - **Caption (`.txt`)**: `mn5vx, bedroom2, corridor, 1st floor bedroom 2 180-degree reverse looking east through open oak bedroom door in warm golden-hour sunlight, navy-to-sunset-orange gradient bed and hourglass nightstand and 3-door white wardrobe on left, black standing mirror reflecting waist-high west window in center, oak desk and plaid-shirt chair on right, blue geometric woven rug on floor, open doorway looking across west corridor into central living room L-sofa, empty scene, no people`
 
-### [27] `27_mansion_bedroom3_master_wide.png`
+### [27] `27_mansion_daye_bedroom3_master_wide.png`
 - **Caption (`.txt`)**: `mn5vx, bedroom3, 1st floor bedroom 3 master wide angle under pale overcast daylight through the curtained windows, warm-grey linen low platform bed under curtained window on left, wooden stool with stacked manuscripts, vintage dark-wood writer desk with black lamp and leather journal and dried flowers under colourful pastel post-it sticky note mosaic corner wall, tall dark-wood bookshelf on right, empty scene, no people`
 
-### [28] `28_mansion_bedroom3_desk_postit_wall.png`
+### [28] `28_mansion_daye_bedroom3_desk_postit_wall.png`
 - **Caption (`.txt`)**: `mn5vx, bedroom3, 1st floor bedroom 3 rotated close-up on vintage dark-wood writer desk, leather journal, dried lavender vase, black task lamp, dense pastel post-it sticky note mosaic on solid corner walls, tall dark-wood bookshelf on right, empty scene, no people`
 
-### [29] `29_mansion_bedroom3_south_window_to_pool_and_gym.png`
+### [29] `29_mansion_daye_bedroom3_south_window_to_pool_and_gym.png`
 - **Caption (`.txt`)**: `mn5vx, bedroom3, 1st floor bedroom 3 at south-west corner looking through two waist-high dark-wooden-framed windows with sheer beige linen curtains, warm-grey linen low platform bed on left, wooden stool with stacked manuscripts, vintage dark-wood writer desk with black lamp and pastel post-it sticky-note mosaic wall on right, outdoor dusk view of 27.8m turquoise swimming pool on left and 1-story glass-walled private home gym on right, empty scene, no people`
 
-### [30] `30_mansion_bedroom3_doorway_to_living_and_pool.png`
+### [30] `30_mansion_daye_bedroom3_doorway_to_living_and_pool.png`
 - **Caption (`.txt`)**: `mn5vx, bedroom3, living, 1st floor bedroom 3 180-degree reverse looking east through open wooden bedroom door, pastel post-it sticky-note mosaic wall and vintage dark-wood writer desk and tall dark-wood bookshelf on solid left north wall, warm-grey linen bed and 100% solid plaster east interior wall on right, open doorway looking directly into central living room vertical-slat oak TV wall and cream-beige L-sofa, empty scene, no people`
 
-### [31] `31_mansion_study_master.png`
+### [31] `31_mansion_oppa_study_master.png`
 - **Caption (`.txt`)**: `mn5vx, study, 1st floor study master looking north-east, vintage mechanical typewriter on left wooden desk corner, deep charcoal fabric sofa with knit blanket in center, wooden desk with dual glowing monitors and stacked manuscripts on right, Persian rug with scattered pages, floor-to-ceiling dark oak bookshelves with flush secret door on right east wall, empty scene, no people`
 
-### [32] `32_mansion_study_reverse_to_living_firepit.png`
+### [32] `32_mansion_oppa_study_reverse_to_living_firepit.png`
 - **Caption (`.txt`)**: `mn5vx, study, living, 1st floor study 180-degree reverse looking south through open doorway into central living room, dual-monitor wooden desk and dark oak bookshelves on left east wall, charcoal fabric sofa with knit blanket and vintage typewriter desk corner and dark oak bookshelves on solid right west wall, flat continuous oak floor leading to living room round stone firepit table with 4 curved cream-beige barrel chairs and south swimming pool glass wall, empty scene, no people`
 
-### [33] `33_mansion_study_to_greyzone_secret_door.png`
+### [33] `33_mansion_oppa_study_to_greyzone_secret_door.png`
 - **Caption (`.txt`)**: `mn5vx, study, greyzone, 1st floor study transition looking east through open secret bookcase door into grey zone private theater, dual monitor desk and Persian rug on left, swung-open dark oak bookcase door in center revealing plush charcoal floor daybed, LED-lit whiskey shelf, cork memo board, and ceiling projector beam inside grey zone, empty scene, no people`
 
 ### [34] `34_mansion_greyzone_theater_master.png`
 - **Caption (`.txt`)**: `mn5vx, greyzone, 1st floor north-east secret private theater grey zone master, plush charcoal-grey floor daybed mattress in center, built-in walnut bar shelf with warm LED strip lighting displaying whiskey bottles and Guinness cans on left wall, cork memo board and ceiling projector beam on back wall, Edison glass lantern and Marshall speaker on side table, projection screen on right wall, empty scene, no people`
 
-### [35] `35_mansion_bedroom4_master_wide.png`
+### [35] `35_mansion_nova_bedroom4_master_wide.png`
 - **Caption (`.txt`)**: `mn5vx, bedroom4, 1st floor bedroom 4 master looking east, matte dark charcoal north wall with black-and-white photography gallery and dark walnut editing desk with task lamp and camera and laptop on left, waist-high double-casement window with baseboard heater and dark curtains looking out at dusk to 1st-floor east garden path ahead, built-in dark 2-door closet on back-right, rumpled navy-bedding platform king bed on right, empty scene, no people`
 
-### [36] `36_mansion_bedroom4_desk_and_gallery_wall.png`
+### [36] `36_mansion_nova_bedroom4_desk_and_gallery_wall.png`
 - **Caption (`.txt`)**: `mn5vx, bedroom4, 1st floor bedroom 4 rotated view looking north-east, black-and-white photography gallery wall and dark walnut editing desk with task lamp and vintage camera and contact sheets on left, waist-high double-casement window with solid lower wall and baseboard heater and dark curtains in center looking out at dusk to 1st-floor east garden path, built-in dark 2-door closet and navy king bed on right, empty scene, no people`
 
-### [37] `37_mansion_bedroom4_doorway_to_living_firepit.png`
+### [37] `37_mansion_nova_bedroom4_doorway_to_living_firepit.png`
 - **Caption (`.txt`)**: `mn5vx, bedroom4, living, 1st floor bedroom 4 180-degree reverse looking west through open oak door into central living room, navy king bed on left south wall, dark walnut editing desk and black-and-white photo gallery on solid windowless right north wall, open doorway revealing round stone firepit table with 4 curved cream-beige barrel lounge chairs, south pool glass wall on left, study and bookshelf zone on right, and west oak slat TV wall ahead, empty scene, no people`
 
-### [38] `38_mansion_bedroom5_master_wide.png`
+### [38] `38_mansion_danhee_bedroom5_master_wide.png`
 - **Caption (`.txt`)**: `mn5vx, bedroom5, 1st floor bedroom 5 master looking east, continuous solid windowless warm-grey plaster north wall on left with dual-monitor wooden desk, black lamp, yellow sticky notes, calendar, and beige-grey linen bed, floor-to-ceiling natural oak bookshelf wall filled with archive binders on right, 1st-floor ground-level east lawn and pine forest window ahead, empty scene, no people`
 
-### [39] `39_mansion_bedroom5_dual_monitor_desk_and_bookshelf.png`
+### [39] `39_mansion_danhee_bedroom5_dual_monitor_desk_and_bookshelf.png`
 - **Caption (`.txt`)**: `mn5vx, bedroom5, 1st floor bedroom 5 180-degree interior view looking west toward closed oak bedroom door, floor-to-ceiling natural oak bookshelf wall with white and black archive binders on left south wall, beige-grey linen bed and dual-monitor wooden desk with yellow sticky notes on solid windowless right north wall, empty scene, no people`
 
-### [40] `40_mansion_bedroom5_doorway_to_living_firepit.png`
+### [40] `40_mansion_danhee_bedroom5_doorway_to_living_firepit.png`
 - **Caption (`.txt`)**: `mn5vx, bedroom5, living, 1st floor bedroom 5 180-degree reverse looking west through open oak door into central living room, floor-to-ceiling natural oak bookshelf wall with archive binders on left south wall, beige-grey linen bed and dual-monitor wooden desk with yellow sticky notes on solid windowless right north wall, open doorway revealing round stone firepit table with 4 curved cream-beige barrel lounge chairs and south pool glass wall on left, empty scene, no people`
 
 ### [41] `41_mansion_rooftop_terrace_master_west.png`
@@ -188,25 +188,25 @@
 ### [43] `43_mansion_rooftop_northwest_sunbed_deck_to_courtyard.png`
 - **Caption (`.txt`)**: `mn5vx, rooftop, zen, 2nd floor north-west extended rooftop sunbed deck above 1st-floor bedroom 6 looking south-east, two beige sunbeds on brown timber deck in foreground, gabled attic cottage on right, string-lit rooftop pergola in center-back, 1st-floor zen forest courtyard with white raked gravel and red maple tree and solid windowless main house north wall below on left, empty scene, no people`
 
-### [44] `44_mansion_attic_bedroom_master.png`
+### [44] `44_mansion_aira_attic_bedroom_master.png`
 - **Caption (`.txt`)**: `mn5vx, attic, 2nd floor gabled attic bedroom master looking west, pitched A-frame ceiling with dark wooden rafters and two warm central pendant lights, rustic wooden drafting desk with brass lamp and spread-out blueprints on left, low platform bed with mustard-ochre bedding and unfolded blueprint map in center-left, low coffee table and tan leather pouf on jute rug, centered grid gable window with full-width low wooden bookshelf and ship wheel ornament ahead, 6-drawer wooden chest with glowing lantern and scroll barrel on right, empty scene, no people`
 
-### [45] `45_mansion_attic_bedroom_reverse_interior.png`
+### [45] `45_mansion_aira_attic_bedroom_reverse_interior.png`
 - **Caption (`.txt`)**: `mn5vx, attic, 2nd floor gabled attic bedroom rotated angle focusing on left rustic wooden drafting desk with glowing task lamp and architectural blueprints, mustard-ochre linen bed with draped blueprint map, low wooden coffee table and tan leather pouf ottoman, back gable grid window and low wooden bookshelf with ship wheel ornament under dark timber A-frame rafters, empty scene, no people`
 
-### [46] `46_mansion_attic_doorway_to_rooftop_terrace.png`
+### [46] `46_mansion_aira_attic_doorway_to_rooftop_terrace.png`
 - **Caption (`.txt`)**: `mn5vx, attic, rooftop, 2nd floor gabled attic bedroom 180-degree reverse looking east through open cottage doors onto rooftop pergola terrace at dusk, 6-drawer wooden chest with hurricane lantern and blueprint scroll barrel on left north wall, rustic drafting desk with blueprints and foot of mustard-ochre bed on right south side and tan leather pouf and low coffee table in center foreground, string-lit rooftop pergola dining and sofa lounge ahead, empty scene, no people`
 
 ### [47] `47_mansion_pool_deck_to_rooftop_stairs_transition.png`
 - **Caption (`.txt`)**: `mn5vx, pool, rooftop, exterior transition from 1st-floor poolside wooden deck up the angled black-steel and wood staircase to 2nd-floor rooftop terrace, gabled dark-roof attic cottage at top left, string-lit black steel pergola at top right, 1st-floor bedroom 3 window on lower left, central living room floor-to-ceiling glass curtain wall and 27.8m turquoise swimming pool on lower right at twilight, empty scene, no people`
 
-### [48] `48_mansion_workshop_annex_master.png`
+### [48] `48_mansion_aira_workshop_annex_master.png`
 - **Caption (`.txt`)**: `mn5vx, workshop, 1st floor south-east annex workshop master, large wooden drafting workbench in foreground covered with mechanical blueprints, rolled scrolls, brass weights, magnifying glass, and glowing brass banker lamp, rustic wooden shelving with PUZZLE FILES crates and pegboard tool rack on right wall, red-string cork pinboard and side workbench on left wall, single wooden door with wire-mesh glass pane on back wall, exposed ceiling conduit pipes and caged Edison bulbs, empty scene, no people`
 
-### [49] `49_mansion_workshop_toolwall_and_pinboard.png`
+### [49] `49_mansion_aira_workshop_toolwall_and_pinboard.png`
 - **Caption (`.txt`)**: `mn5vx, workshop, 1st floor south-east annex workshop wide cross-room view, central wooden drafting workbench with mechanical blueprints and brass lamp, floor-to-ceiling PUZZLE FILES wooden crates and pegboard wrench/hammer tool wall on right, red-string cork pinboard with sconces and side workbench on left, single wire-mesh glass wooden door ahead, empty scene, no people`
 
-### [50] `50_mansion_workshop_doorway_to_pool_and_mansion.png`
+### [50] `50_mansion_aira_workshop_doorway_to_pool_and_mansion.png`
 - **Caption (`.txt`)**: `mn5vx, workshop, 1st floor south-east annex workshop 180-degree reverse looking straight south through open single wire-mesh glass wooden door, PUZZLE FILES wooden crates and pegboard tool rack on left east wall, red-string cork pinboard and side workbench on right west wall, wooden drafting workbench with mechanical blueprints and glowing brass banker lamp in foreground, looking south out the entrance door onto a secluded stone patio surrounded by lush green landscaping and a large leafy shade tree with a cozy outdoor fabric sofa resting lounge area and warm lantern coffee table underneath, empty scene, no people`
 
 ### [51] `51_mansion_swimming_pool_deck_master_west.png`
@@ -230,13 +230,13 @@
 ### [57] `57_mansion_east_shower_sauna_pavilion_to_parking.png`
 - **Caption (`.txt`)**: `mn5vx, sauna, parking, 1st floor east shared shower and sauna pavilion interior looking out to east motorcycle parking, warm cedar-wood dry sauna cabin with glass door on left, dark stone vanity with twin vessel sinks and backlit mirror and glass rain shower stall on right, open wooden door and glass wall revealing parked motorcycles and straight exterior staircase to 2nd-floor rooftop pergola ahead, empty scene, no people`
 
-### [58] `58_mansion_basement_gym_master_arena.png`
+### [58] `58_mansion_basement_brother_gym_master_arena.png`
 - **Caption (`.txt`)**: `mn5vx, basement, underground basement gym master arena wide shot, dark speckled rubber floor with white circular sparring ring and white lettering 오빠짐 BROTHER GYM in center, hanging black leather MAX FC heavy punching bags on left, octagonal chain-link MMA cage with glowing Brother Gym neon sign ahead, raw concrete wall with pull-up fighter stencil mural and 오빠짐 BROTHER GYM lettering and boxing glove rack and digital timer on right, empty scene, no people`
 
-### [59] `59_mansion_basement_gym_boxing_ring_and_weights.png`
+### [59] `59_mansion_basement_brother_gym_boxing_ring_and_weights.png`
 - **Caption (`.txt`)**: `mn5vx, basement, underground basement gym rotated view showing full-size boxing ring with red corner pads and ropes on left in front of concrete 오빠짐 BROTHER GYM mural and glove rack, white circular sparring mat and hanging MAX FC heavy bags in center, black steel free-weight squat racks and bench press and dumbbell racks on right, empty scene, no people`
 
-### [60] `60_mansion_basement_gym_locker_room_to_arena.png`
+### [60] `60_mansion_basement_brother_gym_locker_room_to_arena.png`
 - **Caption (`.txt`)**: `mn5vx, basement, underground basement gym locker room and entrance staircase transition, matte black metal lockers with warm interior lighting and black bench and glowing white stencil motto DISCIPLINE RESPECT HONOR on right brick-and-concrete wall, twin white basins and shower booth on left, open doorway looking into main sparring mat with MAX FC heavy bags and concrete staircase leading up to 1st floor ahead, empty scene, no people`
 
 ### [61] `61_mansion_pool_changing_shower_pavilion_master.png`
@@ -269,19 +269,19 @@
 ### [70] `70_mansion_east_garden_pathway_north_view.png`
 - **Caption (`.txt`)**: `mn5vx, eastpath, exterior elevated view over the east garden stone stepping-stone pathway looking straight north at twilight, 1-story main house continuous straight beige-stucco east exterior wall on left featuring waist-high windows of bedroom 5 and bedroom 4 followed by the solid windowless grey zone east wall and the straight black-metal exterior staircase ascending to the 2nd-floor wooden rooftop terrace with black metal railing, black BBQ grill, string-lit black steel pergola, and dark pitched-roof attic cottage on the roof, straight grey stone stepping-stone pathway on manicured green lawn in center leading north into the dark wood-slat pergola entrance of the north zen courtyard with vibrant red japanese maple tree, stone water basin tsukubai, white raked gravel, and bamboo groves, and 1-story flat-roofed beige-stucco pool changing room and shower pavilion on right with black-framed sliding glass doors facing the path, empty scene, no people`
 
-### [71] `71_mansion_west_corridor_into_bedroom1.png`
+### [71] `71_mansion_west_corridor_into_nayun_bedroom1.png`
 - **Caption (`.txt`)**: `mn5vx, corridor, bedroom1, interior 180-degree outside-in doorway transition standing in the bright warm-cream 1st-floor west corridor looking west through a standard single-width warm-oak wooden door frame into bedroom 1, solid warm-cream corridor wall framing both left and right sides of the doorway, single warm-oak wooden door leaf hinged on the left jamb matching the door frame width and height 1-to-1, interior of the room preserving exact reference layout with vertical-channel-tufted deep burgundy velvet wall and glowing golden crescent moon wall sconce in center, burgundy velvet headboard bed with cream bedding and dark burgundy throw blanket on right, round black side table with glowing miniature lighthouse lamp in foreground right, and dark walnut desk, burgundy velvet chair, low wooden bookcase with antique book on top, and red persian rug on dark wood floor on left, empty room, no people`
 
-### [72] `72_mansion_west_corridor_into_bedroom2.png`
+### [72] `72_mansion_west_corridor_into_yeoreum_bedroom2.png`
 - **Caption (`.txt`)**: `mn5vx, corridor, bedroom2, interior 180-degree outside-in doorway transition standing in the bright warm-cream 1st-floor west corridor looking west through a standard single-width warm-oak wooden door frame into bedroom 2, solid warm-cream corridor wall framing both left and right sides of the doorway with white baseboard, single warm-oak wooden door leaf hinged on the left jamb matching the door frame width and height 1-to-1, interior of the room showing wooden bed with blue-to-orange sunset gradient duvet and yellow duck plushie on pillow against back wall with sunset postcard prints, small wooden nightstand with warm lamp and hourglass on right, and geometric blue-beige rug on wooden floor, empty room, no people`
 
-### [73] `73_mansion_west_corridor_into_bedroom3.png`
+### [73] `73_mansion_west_corridor_into_daye_bedroom3.png`
 - **Caption (`.txt`)**: `mn5vx, corridor, bedroom3, interior 180-degree outside-in doorway transition standing at the south end of the bright warm-cream 1st-floor west corridor looking west through a standard single-width warm-oak wooden door frame into bedroom 3, solid warm-cream corridor wall framing both left and right sides of the doorway, single warm-oak wooden door leaf hinged on the left jamb matching the door frame width and height 1-to-1, interior of the room showing waist-high dark-wood casement window with sheer white curtains on left above single bed with rumpled grey-brown linen bedding, wooden stool nightstand topped with manuscript stack in center, and vintage wooden writer desk on right under a wall covered in colorful pastel post-it notes with dried flowers in a vase, empty room, no people`
 
-### [74] `74_mansion_living_room_into_bedroom4.png`
+### [74] `74_mansion_living_room_into_nova_bedroom4.png`
 - **Caption (`.txt`)**: `mn5vx, living, bedroom4, interior 180-degree outside-in doorway transition standing in the 1st-floor living room east side looking east through a standard single-width warm-oak wooden door frame into bedroom 4, solid warm-cream living room wall framing both left and right sides of the doorway, single warm-oak wooden door leaf hinged on the left jamb matching the door frame width and height 1-to-1, moody dark interior of the room showing dark wooden desk with laptop, scattered photo prints, chair with dark jacket, and framed wall photos on left north wall, waist-high window with dark navy curtains looking out to night trees and dark built-in 2-door closet on back east wall, and wooden platform bed with crumpled dark navy-blue bedding and round wooden side table on right south wall, empty room, no people`
 
-### [75] `75_mansion_living_room_into_bedroom5.png`
+### [75] `75_mansion_living_room_into_danhee_bedroom5.png`
 - **Caption (`.txt`)**: `mn5vx, living, bedroom5, interior 180-degree outside-in doorway transition standing in the 1st-floor living room south-east side looking east through a standard single-width warm-oak wooden door frame into bedroom 5, solid warm-cream living room wall framing both left and right sides of the doorway, single warm-oak wooden door leaf hinged on the left jamb matching the door frame width and height 1-to-1, bright organized interior of the room showing wooden desk with monitor, black swivel office chair, and yellow sticky notes on the solid left north wall in front of the single bed with grey-beige linen bedding, sheer-curtained floor-to-ceiling glass balcony door at back opening to a small balcony with a railing and a folding chair, and floor-to-ceiling wooden bookcase packed with books, binders, and small wooden drawers along the right south wall with a beige runner rug on oak plank floor, empty room, no people`
 
 ### [76] `76_mansion_bookshelf_zone_reverse_to_living_and_pool.png`
@@ -290,11 +290,11 @@
 ### [77] `77_mansion_central_bathroom_reverse_to_living_room.png`
 - **Caption (`.txt`)**: `mn5vx, bath, living, interior 180-degree reverse view standing at the north end inside the 100% windowless 1st-floor central bathroom looking straight south through the open single warm-oak door toward the living room and swimming pool, solid beige travertine stone walls and floor with warm indirect ceiling cove lighting and no exterior windows inside bathroom, floating warm-oak double-basin vanity countertop with two white vessel sinks, matte-black faucets, and two backlit rectangular mirrors reflecting dark bookshelves on left west wall, freestanding white oval bathtub with floor-mounted matte-black faucet on right east wall, looking south through open oak door across bookshelf corridor and living room cream L-sofa out to the turquoise swimming pool, south main gate, and green bamboo perimeter hedge, empty room, no people`
 
-### [78] `78_mansion_greyzone_reverse_into_study.png`
+### [78] `78_mansion_greyzone_reverse_into_oppa_study.png`
 - **Caption (`.txt`)**: `mn5vx, greyzone, study, interior 180-degree reverse view standing at the east end inside the windowless dark-charcoal grey zone secret hideout room looking west through the open secret revolving wooden bookcase door into the study, matte dark-charcoal acoustic wall panels and dark plush carpet inside grey zone, low dark-charcoal floor daybed sofa with cushions and warm glowing vintage edison lantern on wooden crate on left south side, built-in dark walnut home bar shelves with warm amber LED strip lighting displaying whiskey bottles, guinness cans, and glassware on right north side, black ceiling-mounted projector overhead, looking west through open secret bookcase door into the study showing floor-to-ceiling walnut bookshelves, dark charcoal leather sofa, vintage red persian rug with scattered white manuscript pages on herringbone wood floor, and walnut desk with dual monitors, empty room, no people`
 
 ### [79] `79_mansion_zen_courtyard_east_pergola_entrance.png`
 - **Caption (`.txt`)**: `mn5vx, zen, bedroom6, exterior eye-level view standing inside the dark natural wood-slat pergola entrance at the east end of the 1st-floor north zen forest courtyard looking straight west at sunset, overhead wood-slat pergola beams framing the shot, 1-story main house north exterior wall on left south side featuring a completely smooth, flat, windowless solid beige-stucco wall with a low warm-wood engawa deck along its base and the 2nd-floor rooftop metal railing and pitched-roof attic cottage visible above, white raked karesansui gravel garden in center with wavy patterns, sculpted green moss islands, and flat grey stepping stones, vibrant red japanese maple tree, traditional stone water basin tsukubai with bamboo spout, and lush bamboo groves along the north perimeter wall on right, and floor-to-ceiling black-framed sliding glass doors of bedroom 6 glowing warmly straight ahead on the west end, empty scene, no people`
 
-### [80] `80_mansion_basement_gym_staircase_descent.png`
+### [80] `80_mansion_basement_brother_gym_staircase_descent.png`
 - **Caption (`.txt`)**: `mn5vx, basement, interior single unified 16:9 wide-angle eye-level view descending the industrial raw concrete entrance staircase with matte-black metal handrails and warm recessed linear LED step lighting into the windowless underground basement gym, black heavy-duty rubber gym floor in center featuring the large white circle printed on the rubber floor with Korean and English text 오빠짐 BROTHER GYM, row of hanging black heavy punching bags printed with MAX FC on left in front of windowless dark concrete wall and interior gym mirrors, black chain-link MMA octagon cage at back center under glowing warm neon sign Brother Gym, exposed raw concrete wall on right featuring black stencil mural of a fighter doing pull-ups next to text 오빠짐 BROTHER GYM, wall-mounted pull-up bars, and multi-tier storage rack filled with red, blue, and white boxing gloves and headgear under rectangular linear LED ceiling lights, empty gym, no people`
