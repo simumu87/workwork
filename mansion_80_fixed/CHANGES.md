@@ -58,8 +58,8 @@
 | 55 | `55_mansion_private_home_gym_to_pool_deck_transition` | — | homegym, pool | `aira workshop→workshop ×1` |
 | 56 | `56_mansion_east_motorcycle_parking_and_shower_annex` | — | parking, sauna | `aira workshop→workshop ×1` |
 | 57 | `57_mansion_east_shower_sauna_pavilion_to_parking` | — | sauna, parking | `img: open wooden door revealing parked motorc… → open wooden door and glass wall revealin…` |
-| 58 | `58_mansion_basement_gym_master_arena` | — | basement | `basement brother gym→basement gym ×1`; `img: white lettering BROTHER GYM in center… → white lettering 오빠짐 BROTHER GYM in cente…`; `img: stencil mural and BROTHER GYM lettering… → stencil mural and 오빠짐 BROTHER GYM letter…` |
-| 59 | `59_mansion_basement_gym_boxing_ring_and_weights` | — | basement | `basement brother gym→basement gym ×1`; `img: concrete BROTHER GYM mural… → concrete 오빠짐 BROTHER GYM mural…` |
+| 58 | `58_mansion_basement_gym_master_arena` | — | basement | `basement brother gym→basement gym ×1`; `img: white lettering BROTHER GYM in center… → white lettering BROTHER GYM in cente…`; `img: stencil mural and BROTHER GYM lettering… → stencil mural and BROTHER GYM letter…` |
+| 59 | `59_mansion_basement_gym_boxing_ring_and_weights` | — | basement | `basement brother gym→basement gym ×1`; `img: concrete BROTHER GYM mural… → concrete BROTHER GYM mural…` |
 | 60 | `60_mansion_basement_gym_locker_room_to_arena` | — | basement | `basement brother gym→basement gym ×1` |
 | 61 | `61_mansion_pool_changing_shower_pavilion_master` | pool_changing_room | changing | — |
 | 62 | `62_mansion_pool_changing_room_lockers_and_vanity` | pool_changing_room | changing | — |
