@@ -5,13 +5,12 @@ no,old_basename,new_basename,old_zone_triggers,new_zone_triggers
 4,04_mansion_exterior_master_east,04_mansion_exterior_master_east,(없음),exterior
 5,05_mansion_exterior_master_west,05_mansion_exterior_master_west,(없음),exterior
 6,06_mansion_zen_courtyard_to_hangyeol_room,06_mansion_zen_courtyard_to_bedroom6,"zen_courtyard, hangyeol_room","zen, bedroom6"
-7,07_mansion_north_corridor_to_zen_courtyard,07_mansion_north_corridor_to_zen_courtyard,"zen_courtyard, hangyeol_room","zen, bedroom6"
 8,08_mansion_hangyeol_bedroom6_master_wide,08_mansion_bedroom6_master_wide,hangyeol_room,bedroom6
 9,09_mansion_hangyeol_studio_desk_to_courtyard,09_mansion_bedroom6_studio_desk_to_courtyard,"hangyeol_room, zen_courtyard","bedroom6, zen"
 10,10_mansion_hangyeol_doorway_to_west_corridor,10_mansion_bedroom6_doorway_to_west_corridor,"hangyeol_room, living_room","bedroom6, living"
 11,11_mansion_living_room_master_east,11_mansion_living_room_master_east,(없음),living
 12,12_mansion_living_room_reverse_west,12_mansion_living_room_reverse_west,(없음),living
-13,13_mansion_living_room_south_to_pool_deck,13_mansion_living_room_south_to_pool_deck,(없음),"living, pool"
+13,13_mansion_living_room_south_to_pool_deck,13_mansion_living_room_south_to_pool_deck,(없음),"pool, living"
 14,14_mansion_living_room_firepit_to_east_rooms,14_mansion_living_room_firepit_to_east_rooms,(없음),living
 15,15_mansion_kitchen_dining_master,15_mansion_kitchen_dining_master,kitchen_dining,kitchen
 16,16_mansion_kitchen_reverse_to_living_and_pool,16_mansion_kitchen_reverse_to_living_and_pool,(없음),"kitchen, living, pool"
