@@ -42,7 +42,7 @@
 | 39 | `39_mansion_bedroom5_dual_monitor_desk_and_bookshelf` | — | bedroom5 | `(bedroom \d) (?:nayun|yeoreum|daye|nova|danhee|hangyeol) room→\1 ×1` |
 | 40 | `40_mansion_bedroom5_doorway_to_living_firepit` | — | bedroom5, living | `(bedroom \d) (?:nayun|yeoreum|daye|nova|danhee|hangyeol) room→\1 ×1` |
 | 41 | `41_mansion_rooftop_terrace_master_west` | — | rooftop | `unlabelled → ×1` |
-| 42 | `42_mansion_rooftop_terrace_reverse_east` | — | rooftop | — |
+| 42 | `42_mansion_rooftop_terrace_reverse_east` | — | rooftop | `img: modular fabric sofa lounge on right sout… → modular fabric sofa lounge in center-lef…` |
 | 43 | `43_mansion_rooftop_northwest_sunbed_deck_to_courtyard` | — | rooftop, zen | `unlabelled → ×1` |
 | 44 | `44_mansion_attic_bedroom_master` | — | attic | `gabled attic bedroom aira room→gabled attic bedroom ×1` |
 | 45 | `45_mansion_attic_bedroom_reverse_interior` | — | attic | `gabled attic bedroom aira room→gabled attic bedroom ×1` |
@@ -57,9 +57,9 @@
 | 54 | `54_mansion_private_home_gym_power_rack_and_mirror` | — | homegym | — |
 | 55 | `55_mansion_private_home_gym_to_pool_deck_transition` | — | homegym, pool | `aira workshop→workshop ×1` |
 | 56 | `56_mansion_east_motorcycle_parking_and_shower_annex` | — | parking, sauna | `aira workshop→workshop ×1` |
-| 57 | `57_mansion_east_shower_sauna_pavilion_to_parking` | — | sauna, parking | — |
-| 58 | `58_mansion_basement_gym_master_arena` | — | basement | `basement brother gym→basement gym ×1` |
-| 59 | `59_mansion_basement_gym_boxing_ring_and_weights` | — | basement | `basement brother gym→basement gym ×1` |
+| 57 | `57_mansion_east_shower_sauna_pavilion_to_parking` | — | sauna, parking | `img: open wooden door revealing parked motorc… → open wooden door and glass wall revealin…` |
+| 58 | `58_mansion_basement_gym_master_arena` | — | basement | `basement brother gym→basement gym ×1`; `img: white lettering BROTHER GYM in center… → white lettering 오빠짐 BROTHER GYM in cente…`; `img: stencil mural and BROTHER GYM lettering… → stencil mural and 오빠짐 BROTHER GYM letter…` |
+| 59 | `59_mansion_basement_gym_boxing_ring_and_weights` | — | basement | `basement brother gym→basement gym ×1`; `img: concrete BROTHER GYM mural… → concrete 오빠짐 BROTHER GYM mural…` |
 | 60 | `60_mansion_basement_gym_locker_room_to_arena` | — | basement | `basement brother gym→basement gym ×1` |
 | 61 | `61_mansion_pool_changing_shower_pavilion_master` | pool_changing_room | changing | — |
 | 62 | `62_mansion_pool_changing_room_lockers_and_vanity` | pool_changing_room | changing | — |
